@@ -9,14 +9,21 @@ under working. It helps to split a big change into several small logical changes
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+use git diff to know where you changed and it is logical.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+If you want to make an experiment, you can make a new branch. If you want to make
+a different version to the original, you can create a new branch.
 
 How do the diagrams help you visualize the branch structure?
+It is clear.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+The master branch contains all the changes of two branches.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+It is obvious that automatic merging is simple. However, it is not suitable for
+complex scenarioes.
